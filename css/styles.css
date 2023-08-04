@@ -1,5 +1,5 @@
 body {
-  color: #2e2f42;
+  color: #434455;
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -18,14 +18,14 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
-  color: #2e2f42;
+  color: #4d5ae5;
   text-transform: uppercase;
 }
 
 .logo-header .accent {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-link {
@@ -35,7 +35,11 @@ a {
 }
 
 .header-link:hover {
-  color: #4d5ae5;
+  color: #404bbf;
+}
+
+.header-link:focus {
+  color: #404bbf;
 }
 
 .header-contacts-link {
@@ -46,7 +50,11 @@ a {
 }
 
 .header-contacts-link:hover {
-  color: #4d5ae5;
+  color: #404bbf;
+}
+
+.header-contacts-link:focus {
+  color: #404bbf;
 }
 
 .hero-section {
@@ -66,12 +74,11 @@ a {
   line-height: 1.5;
   letter-spacing: 0.64px;
   color: #ffffff;
-  border-radius: 4px;
   background-color: #4d5ae5;
-  border: none;
 }
 
 .advantage-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.4px;
@@ -85,7 +92,7 @@ a {
 }
 
 .team-section {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 
 .team-title {
@@ -98,6 +105,7 @@ a {
 }
 
 .team-profile {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.4px;
@@ -121,6 +129,7 @@ a {
 
 .project {
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
@@ -139,14 +148,14 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
 .logo-footer .accent {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .footer-text {
