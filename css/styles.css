@@ -18,6 +18,20 @@ address {
   font-style: normal;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
 .logo-header {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -62,6 +76,7 @@ address {
 }
 
 .hero-section {
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 
@@ -81,6 +96,9 @@ address {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
+  padding: 16px 32px;
+  margin: 0 auto;
+  display: block;
 }
 
 .button:hover {
